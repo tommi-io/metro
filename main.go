@@ -1,10 +1,11 @@
 package main
 import(
 	"fmt"
+	"github.com/tommi-io/metro/metro/funcs"
 )
 
 func main(){
 	
-	fmt.Println("ciao mondo!")
+	funcs.fileToMstro("./txtFiles/fermateInfo.txt")
 
 }
